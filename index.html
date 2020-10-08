@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Resources/style.css"
+    <title>Time Zone Calculator</title>
+
+</head>
+<body>
+    <div id="container">
+        <label for="reverse">Are You Converting TO or FROM USD?</label>
+            <select name="to-from" id="to-from" class="input-styling">
+                <option value="to">From Forein Currency to USD</option>
+                <option value="from">From USD to Foreign Currency</option>
+            </select>
+        Amount: <input id="amount" class="input-styling" type="number">
+        <label for="foreign-currency">Choose a Currency: </label>
+            <select name="Currency" id="currency" class="input-styling">
+                <option value="jpy">Japanese Yen</option>
+                <option value="euro">Euro</option>
+                <option value="cny">Chinese Yuan</option>
+                <option value="cnd">Canadian Dollar</option>
+            </select>
+        Output Currency Value: <input id="output" class="input-styling" type="number">    
+        <button id="button">Calculate</button>
+    </div>
+</body>
+</html>
