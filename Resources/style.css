@@ -22,10 +22,12 @@ h1 {
     width: 50%;
     height: 750px;
     background-color: cadetblue;
+    margin-top: 200px;
+    margin-bottom: 300px
 }
 .input-styling {
     line-height: 0;
-    width: 60%;
+    width: 50%;
     margin-bottom: 40px;
     padding: 8px;
     font-size: 18px;
@@ -36,4 +38,8 @@ button {
 }
 .label-styling {
     font-size: 25px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
 }

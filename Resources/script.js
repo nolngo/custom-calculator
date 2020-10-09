@@ -2,7 +2,12 @@ var conversionRates = {
     "jpy": 106.03,
     "euro": 0.85,
     "cny": 6.79,
-    "cad": 1.32
+    "cad": 1.32,
+    "rub": 77.30,
+    "vnd": 23192,
+    "peso": 21.35,
+    "aed": 3.67,
+    "inr": 73.27
 }
 let button = document.getElementById("button");
 button.addEventListener("click",function(){
