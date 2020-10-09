@@ -7,20 +7,16 @@ body {
     width: 100%;
     background-color: brown;
 }
-h1 {
-    font-size: 40px;
-    font-weight: 2000;
-}
 #container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border: 3px solid;
     padding: 20px;
     margin-bottom: 100px;
     width: 50%;
-    height: 750px;
+    height: 1000px;
     background-color: cadetblue;
     margin-top: 200px;
     margin-bottom: 300px;
@@ -28,16 +24,18 @@ h1 {
 .input-styling {
     line-height: 0;
     width: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 8px;
     font-size: 18px;
     font-weight: 50;
 }
 button {
     padding: 15px;
+    font-size: 20px;
 }
 .label-styling {
     font-size: 25px;
+    margin-bottom: 0;
 }
 footer {
     flex-direction: column;
